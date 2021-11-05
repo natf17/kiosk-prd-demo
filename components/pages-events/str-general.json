@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_pages_events_str_generals",
+  "info": {
+    "name": "strGeneral",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eventThemeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "durationLabel": {
+      "type": "string",
+      "required": true
+    },
+    "yearsShowingLabel": {
+      "type": "string",
+      "required": true
+    },
+    "dateLabel": {
+      "type": "string",
+      "required": true
+    },
+    "eventLangLabel": {
+      "type": "string",
+      "required": true
+    },
+    "noEventsFound": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

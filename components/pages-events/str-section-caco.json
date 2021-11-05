@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_events_str_section_cacos",
+  "info": {
+    "name": "strSectionCACO",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

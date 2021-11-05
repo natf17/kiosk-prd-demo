@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/event-seasons",
+      "handler": "event-season.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/event-seasons/count",
+      "handler": "event-season.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/event-seasons/:id",
+      "handler": "event-season.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/event-seasons",
+      "handler": "event-season.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/event-seasons/:id",
+      "handler": "event-season.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/event-seasons/:id",
+      "handler": "event-season.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

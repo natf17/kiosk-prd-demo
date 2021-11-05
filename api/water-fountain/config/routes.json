@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/water-fountains",
+      "handler": "water-fountain.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-fountains/count",
+      "handler": "water-fountain.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-fountains/:id",
+      "handler": "water-fountain.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/water-fountains",
+      "handler": "water-fountain.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/water-fountains/:id",
+      "handler": "water-fountain.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/water-fountains/:id",
+      "handler": "water-fountain.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

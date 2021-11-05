@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_media_basic_images",
+  "info": {
+    "name": "BasicImage",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "alt": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "text"
+    }
+  }
+}

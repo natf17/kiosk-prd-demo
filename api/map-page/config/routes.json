@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/map-page",
+      "handler": "map-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/map-page",
+      "handler": "map-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/map-page",
+      "handler": "map-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

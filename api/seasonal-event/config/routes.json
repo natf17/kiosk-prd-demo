@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/seasonal-events",
+      "handler": "seasonal-event.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seasonal-events/count",
+      "handler": "seasonal-event.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seasonal-events/:id",
+      "handler": "seasonal-event.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/seasonal-events",
+      "handler": "seasonal-event.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/seasonal-events/:id",
+      "handler": "seasonal-event.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/seasonal-events/:id",
+      "handler": "seasonal-event.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

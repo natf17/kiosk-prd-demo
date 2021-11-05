@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_utils_url_links",
+  "info": {
+    "name": "urlLink",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "displayText": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

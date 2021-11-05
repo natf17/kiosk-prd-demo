@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seasonal_events",
+  "info": {
+    "name": "Seasonal Event",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seasonalType": {
+      "type": "enumeration",
+      "enum": [
+        "REG",
+        "CACO",
+        "CABR",
+        "OTHER"
+      ],
+      "required": true,
+      "pluginOptions": {}
+    },
+    "startDate": {
+      "required": true,
+      "type": "date",
+      "pluginOptions": {}
+    },
+    "eventLanguage": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "es",
+        "it",
+        "pl",
+        "ko"
+      ],
+      "required": true,
+      "default": "en",
+      "pluginOptions": {}
+    },
+    "event_season": {
+      "via": "seasonal_events",
+      "model": "event-season"
+    },
+    "testDateTime": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}

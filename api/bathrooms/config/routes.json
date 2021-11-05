@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bathrooms",
+      "handler": "bathrooms.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bathrooms/count",
+      "handler": "bathrooms.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bathrooms/:id",
+      "handler": "bathrooms.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bathrooms",
+      "handler": "bathrooms.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bathrooms/:id",
+      "handler": "bathrooms.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bathrooms/:id",
+      "handler": "bathrooms.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

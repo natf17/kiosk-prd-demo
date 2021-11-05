@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_seasons",
+  "info": {
+    "name": "Event Season",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "REG",
+        "CACO",
+        "CABR",
+        "OTHER"
+      ],
+      "required": true
+    },
+    "durationDays": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "default": 1,
+      "required": true
+    },
+    "theme": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "serviceYear": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true,
+      "type": "integer"
+    },
+    "seasonal_events": {
+      "via": "event_season",
+      "collection": "seasonal-event"
+    },
+    "seasonYears": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_events_str_section_reg_cos",
+  "info": {
+    "name": "strSectionRegCo",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

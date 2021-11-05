@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_media_background_images",
+  "info": {
+    "name": "Background Image",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blurBackground": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

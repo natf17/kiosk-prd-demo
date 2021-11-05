@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pages_map_amenity_types",
+  "info": {
+    "name": "Amenity Type",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "widgetLabel": {
+      "type": "string",
+      "required": true
+    },
+    "headingLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
