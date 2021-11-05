@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pages_map_tap_widgets",
+  "info": {
+    "name": "Tap Widget",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "instructions": {
+      "type": "text"
+    },
+    "br_label": {
+      "type": "string"
+    },
+    "water_label": {
+      "type": "string"
+    },
+    "firstaid_label": {
+      "type": "string"
+    },
+    "donations_label": {
+      "type": "string"
+    }
+  }
+}

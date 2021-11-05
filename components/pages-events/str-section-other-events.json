@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_events_str_section_other_events",
+  "info": {
+    "name": "strSectionOtherEvents",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

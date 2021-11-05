@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/first-aids",
+      "handler": "first-aid.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/first-aids/count",
+      "handler": "first-aid.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/first-aids/:id",
+      "handler": "first-aid.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/first-aids",
+      "handler": "first-aid.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/first-aids/:id",
+      "handler": "first-aid.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/first-aids/:id",
+      "handler": "first-aid.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

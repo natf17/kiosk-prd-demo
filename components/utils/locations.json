@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_utils_locations",
+  "info": {
+    "name": "locations_common",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "venue_loc": {
+      "type": "enumeration",
+      "enum": [
+        "first_fl",
+        "mezz"
+      ]
+    },
+    "svg_loc": {
+      "type": "string"
+    }
+  }
+}

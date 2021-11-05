@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_events_str_section_cabrs",
+  "info": {
+    "name": "strSectionCABR",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
