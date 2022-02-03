@@ -61,6 +61,14 @@
           "localized": false
         }
       }
+    },
+    "svgElemId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }

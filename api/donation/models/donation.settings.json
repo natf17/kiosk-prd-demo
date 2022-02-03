@@ -74,6 +74,14 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "svgElemId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
