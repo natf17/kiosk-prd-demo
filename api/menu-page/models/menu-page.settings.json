@@ -46,6 +46,17 @@
       },
       "component": "pages-menu.events",
       "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-menu.about",
+      "required": true
     }
   }
 }

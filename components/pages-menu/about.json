@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_menu_abouts",
+  "info": {
+    "name": "About",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "menuItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages-menu.menu-item",
+      "max": 1
+    }
+  }
+}
