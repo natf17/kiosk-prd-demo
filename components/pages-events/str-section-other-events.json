@@ -2,12 +2,17 @@
   "collectionName": "components_pages_events_str_section_other_events",
   "info": {
     "name": "strSectionOtherEvents",
-    "icon": "anchor"
+    "icon": "anchor",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "btn_text": {
+      "type": "string",
+      "required": true
     }
   }
 }
