@@ -45,7 +45,7 @@
       "component": "pages-events.str-general",
       "required": true
     },
-    "sectionRegCo": {
+    "sectionREG": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -78,7 +78,7 @@
       "component": "pages-events.str-section-cabr",
       "required": true
     },
-    "sectionOtherEvents": {
+    "sectionOTHER": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
