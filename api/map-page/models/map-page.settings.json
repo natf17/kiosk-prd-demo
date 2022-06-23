@@ -98,6 +98,17 @@
         }
       },
       "type": "text"
+    },
+    "mapViewConfig": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "pages-map.map-view-config",
+      "required": true
     }
   }
 }

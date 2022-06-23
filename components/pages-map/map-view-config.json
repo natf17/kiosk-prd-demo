@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pages_map_map_view_configs",
+  "info": {
+    "name": "MapViewConfig",
+    "icon": "map"
+  },
+  "options": {},
+  "attributes": {
+    "enableFsCustomMaps": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "clearResults": {
+      "type": "string",
+      "required": true
+    },
+    "levelSelect": {
+      "type": "string",
+      "required": true
+    },
+    "mapNotAvailable": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
