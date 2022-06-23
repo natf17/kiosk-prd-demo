@@ -2,7 +2,8 @@
   "collectionName": "components_pages_map_tap_widgets",
   "info": {
     "name": "Tap Widget",
-    "icon": "archway"
+    "icon": "archway",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -20,6 +21,10 @@
     },
     "donations_label": {
       "type": "string"
+    },
+    "noResultsFound": {
+      "type": "string",
+      "required": true
     }
   }
 }
