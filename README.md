@@ -24,6 +24,7 @@ NODE_ENV=production npm start
 3. Edit the `Public` role and check off the following permissions:
   * BATHROOMS: find
   * ERROR-404-PAGE: find
+  * HOME-PAGE: find
 
 ## Configure locales
 1. Go to the admin panel and click on **Settings**.
@@ -34,5 +35,9 @@ NODE_ENV=production npm start
 ## Populate the pages
   In the admin panel, under Single Types, populate the following: (save and then publish)
 - Error 404 Page (en and es)
+- Home Page
 
+Every page must be populated in both the en and es locales.
 
+---------------------------
+SIngle Types -> Home Page
