@@ -18,26 +18,24 @@ Run the server:
 NODE_ENV=production npm start
 ```
 
-## Configure permissions
+## How to configure permissions
 1. Go to the admin panel and click on the **Settings** in the **General** section of the left menu.
 2. Click on the **Roles** tab in the **Users and Permissions Plugin** section of the sub-menu.
-3. Edit the `Public` role and check off the following permissions:
-  * BATHROOMS: find
-  * ERROR-404-PAGE: find
-  * HOME-PAGE: find
+3. Click on the edit button next to the `Public` role and scroll down to the `Permissions` box.
+4. Open the `APPLICATION` dropdown.
+5. Check or uncheck permissions for each page. 
 
-## Configure locales
+## How to add locales
 1. Go to the admin panel and click on **Settings**.
 2. In the sub-menu, click on *Global Settings > Internationalization*.
-3. Add the following locales:
-- es 
+3. Click on the `Add a Locale` button to open the editor. 
 
-## Populate the pages
-  In the admin panel, under Single Types, populate the following: (save and then publish)
-- Error 404 Page (en and es)
-- Home Page
+## How to populate the pages
+In the admin panel, under **Single Types**, click on the page to edit its content. The changes must be saved and published.
 
-Every page must be populated in both the en and es locales.
+## How to add seasons and events
+To add a season: In the admin panel, under **Collection Types**, click on `Event Seasons`.
 
----------------------------
-SIngle Types -> Home Page
+To add an event: In the admin panel, under **Collection Types**, click on `Seasonal Events` or `Non-seasonal Events`.
+
+Note: Although Strapi takes care of resolving the event-to-season relationship (so the season can be selected from the event or vice-versa), it is easier to add an `Event Season` first, and then updating the `Event_season` field from an event in `Seasonal Events`. 
