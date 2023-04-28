@@ -1,6 +1,6 @@
-# Strapi application
+# CMS for a Kiosk
 
-The steps below assume an environment that meets the prerequisites in the [Strapi deployment page](https://docs-v3.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+This CMS is built on Strapi v.3. The steps below assume an environment that meets the prerequisites in the [Strapi deployment page](https://docs-v3.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
 
 ## Configure the application
 The app requires the following environment variables:
