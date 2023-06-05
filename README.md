@@ -29,6 +29,7 @@ NODE_ENV=production npm start
 3. Click on the edit button next to the `Public` role and scroll down to the `Permissions` box.
 4. Open the `APPLICATION` dropdown.
 5. Check or uncheck permissions for each page. 
+6. Save.
 
 ## How to add locales
 1. Go to the admin panel and click on **Settings**.
